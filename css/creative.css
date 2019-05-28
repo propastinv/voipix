@@ -1670,7 +1670,6 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
 }
 
 .table th,
@@ -1720,7 +1719,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: #f68f1e;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -10690,6 +10689,11 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+  header.product {
+    height: 60vh;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -10840,6 +10844,17 @@ header.masthead h1 {
 }
 
 .product-img{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.parallax { 
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/bg-masthead.jpg);
+  height: 90%;
+  color: white;
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

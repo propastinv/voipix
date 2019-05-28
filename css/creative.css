@@ -4444,8 +4444,6 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -10759,7 +10757,7 @@ header.masthead h1 {
 }
 
 .softphones{
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .how{
@@ -10767,7 +10765,7 @@ header.masthead h1 {
 }
 
 .logo{
-  max-width: 98px;
+  max-width: 100px;
 }
 
 /*tabs styles*/
